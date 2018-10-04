@@ -73,72 +73,40 @@
         <thead>
              <th></th><th></th><th>  </th><th></th><th></th>
         </thead>
-        <tbody>
-             <td></td><td></td><td>VTMP-925</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>VTMP-850</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>VTMP-500</td><td></td><td></td>
-        </tbody>
          <tbody>
-             <td></td><td></td><td>TEMP-850</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>TEMP-500</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>TEMP-250</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>PSNM-000</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>UMES-925</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>UMES-850</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>UMES-500</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>AGPL-925</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>ZGEO-850</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>ZGEO-500</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>ZGEO-250</td><td></td><td></td>
-        </tbody>
-        <tbody>
+             <td></td><td></td><td>VTMP-925</td><td></td><td></td>
+             <td></td><td></td><td>TEMP-850</td><td></td><td></td> 
              <td></td><td></td><td>UVEL-850</td><td></td><td></td>
         </tbody>
         <tbody>
+             <td></td><td></td><td>VTMP-850</td><td></td><td></td>
+             <td></td><td></td><td>TEMP-250</td><td></td><td></td>
              <td></td><td></td><td>UVEL-500</td><td></td><td></td>
         </tbody>
         <tbody>
+             <td></td><td></td><td>VTMP-500</td><td></td><td></td>
+             <td></td><td></td><td>TEMP-500</td><td></td><td></td>
              <td></td><td></td><td>UVEL-250</td><td></td><td></td>
         </tbody>
         <tbody>
+             <td></td><td></td><td>PSNM-000</td><td></td><td></td>
+             <td></td><td></td><td>AGPL-925</td><td></td><td></td>
              <td></td><td></td><td>VVEL-850</td><td></td><td></td>
         </tbody>
         <tbody>
+             <td></td><td></td><td>UMES-925</td><td></td><td></td>
+             <td></td><td></td><td>ZGEO-850</td><td></td><td></td>
              <td></td><td></td><td>VVEL-500</td><td></td><td></td>
         </tbody>
         <tbody>
+             <td></td><td></td><td>UMES-850</td><td></td><td></td>
+             <td></td><td></td><td>ZGEO-250</td><td></td><td></td>
              <td></td><td></td><td>VVEL-250</td><td></td><td></td>
         </tbody>
         <tbody>
-             <td></td><td></td><td>PREC-000</td><td></td><td></td>
-        </tbody>
-        <tbody>
-             <td></td><td></td><td>PREC-000</td><td></td><td></td>
-        </tbody>
+             <td></td><td></td><td>UMES-500</td><td></td><td></td>
+             <td></td><td></td><td>ZGEO-500</td><td></td><td></td>
+        </tbody>     
     </table>
     <p></p>
 </body>
