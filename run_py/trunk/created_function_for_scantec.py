@@ -20,7 +20,8 @@ def plot_ROC(var_1, var_2,var_3, title,time,statistic):
         plt.ylabel("Y-axis")
         plt.legend([var_1, var_2,var_3], loc=0)
         plt.tight_layout()
-        #plt.savefig(str(title)+str(statistic)+'.png')
+        plt.plot()
+        plt.savefig(str(title)+str(statistic)+str(time)+'.png')
 
 #A 'def' abaixo é exclusiva para as váriaveis PSNM-000 e AGPL-925
 
@@ -41,6 +42,8 @@ def plot_ROC_1_var(var_1, title,time,statistic):
         plt.ylabel("Y-axis")
         plt.legend([var_1], loc=0)
         plt.tight_layout()
+        plt.plot()
+        plt.savefig(str(title)+str(statistic)+str(time)+'.png')
         
 plt.figure(figsize=(10,10))
 plot_ROC_1_var('PSNM-000','PSNM','6','ACOR')
