@@ -184,40 +184,40 @@ plot_ROC('VVEL-250','VVEL-500','VVEL-850','VVEL','26','ACOR')
 plt.figure(figsize=(15,15))
 
 plt.subplot(6, 2, 1)
-plot_ROC('VTMP-925','VTMP-850','VTMP-500','VTMP','6','RMSEEXP')
+plot_ROC('VTMP-925','VTMP-850','VTMP-500','VTMP','6','RMSE')
 
 plt.subplot(6, 2, 3)
-plot_ROC('TEMP-250','TEMP-500','TEMP-850','TEMP','6','RMSEEXP')
+plot_ROC('TEMP-250','TEMP-500','TEMP-850','TEMP','6','RMSE')
 
 plt.subplot(6, 2, 5)
-plot_ROC('UMES-500','UMES-850','UMES-925','UMES','6','RMSEEXP')
+plot_ROC('UMES-500','UMES-850','UMES-925','UMES','6','RMSE')
 
 plt.subplot(6,2,7)
-plot_ROC('ZGEO-250','ZGEO-500','ZGEO-850','ZGEO','6','RMSEEXP')
+plot_ROC('ZGEO-250','ZGEO-500','ZGEO-850','ZGEO','6','RMSE')
 
 plt.subplot(6,2,9)
-plot_ROC('UVEL-250','UVEL-500','UVEL-850','UVEL','6','RMSEEXP')
+plot_ROC('UVEL-250','UVEL-500','UVEL-850','UVEL','6','RMSE')
 
 plt.subplot(6,2,11)
-plot_ROC('VVEL-250','VVEL-500','VVEL-850','VVEL','6','RMSEEXP')
+plot_ROC('VVEL-250','VVEL-500','VVEL-850','VVEL','6','RMSE')
 
 # numero 10 - > relacionado a 48h
 plt.figure(figsize=(15,15))
 
 plt.subplot(6, 2, 1)
-plot_ROC('VTMP-925','VTMP-850','VTMP-500','VTMP','6','RMSEEXP')
+plot_ROC('VTMP-925','VTMP-850','VTMP-500','VTMP','10','RMSE')
 
 plt.subplot(6, 2, 3)
-plot_ROC('TEMP-250','TEMP-500','TEMP-850','TEMP','6','RMSEEXP')
+plot_ROC('TEMP-250','TEMP-500','TEMP-850','TEMP','10','RMSE')
 
 plt.subplot(6, 2, 5)
-plot_ROC('UMES-500','UMES-850','UMES-925','UMES','6','RMSEEXP')
+plot_ROC('UMES-500','UMES-850','UMES-925','UMES','10','RMSE')
 
 plt.subplot(6,2,7)
-plot_ROC('ZGEO-250','ZGEO-500','ZGEO-850','ZGEO','6','RMSEEXP')
+plot_ROC('ZGEO-250','ZGEO-500','ZGEO-850','ZGEO','10','RMSE')
 
 plt.subplot(6,2,9)
-plot_ROC('UVEL-250','UVEL-500','UVEL-850','UVEL','6','RMSEEXP')
+plot_ROC('UVEL-250','UVEL-500','UVEL-850','UVEL','10','RMSE')
 
 plt.subplot(6,2,11)
-plot_ROC('VVEL-250','VVEL-500','VVEL-850','VVEL','6','RMSEEXP')
+plot_ROC('VVEL-250','VVEL-500','VVEL-850','VVEL','10','RMSE')
