@@ -1,0 +1,54 @@
+{
+  "var_scantec": [
+
+     {"position": [6 ,10, 14, 18, 22, 26]},
+
+     {"previsao": [24,48,72,96,120,144]},
+
+     {"estatistica": ["ACOR", "RMS", "VIEW"]},
+
+     {"title": ["VTMP","TEMP","UMES","ZGEO","UVEL","VVEL","PSNM","AGPL"]},
+
+     {"level": [250,500,850,925]},    
+      
+     {"var_VTMP":
+            {"title":"VTMP",
+            "level":[925,850,500]}
+            },
+     
+     {"var_TEMP":
+            {"title":"TEMP",
+            "level":[250,500,850]}
+            },
+     
+     {"var_UMES":
+            { "title":"UMES",
+              "level": [500, 850,925]}       
+            },
+
+      {"var_UMES":
+            { "title":"UMES",
+              "level": [500, 850,925]}       
+            },
+     
+      {"var_ZGEO":
+            { "title":"ZGEO",
+              "level": [250, 500,850]}       
+            },
+      
+      {"var_UVEL":
+            { "title":"UVEL",
+              "level": [250,500,850]}       
+            },
+      
+      {"var_VVEL":
+            { "title":"VVEL",
+              "level": [250,500,850]}       
+            },
+
+      {"var_PSNM":
+            { "title":"PSNM",
+              "level": [250,500,850]}       
+            }
+     ]  
+}    
