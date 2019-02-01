@@ -4,20 +4,46 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+#function created
+
 from roc1 import plot_ROC_1_var
 from roc2 import plot_ROC
-from fjso import *
+from fjso import select
+from time_exec import time_statistics
+
+# Checando as versões para acompanhamento de atualizações
+print()
+print("NumPy version: {}". format(np.__version__))
+print("pandas version: {}". format(pd.__version__))
+print("csv version: {}". format(csv.__version__))
+print()
 
 a =select(6,3,8,4)
 
 
 plt.figure(figsize=(10,10))
-#plot_ROC_1_var('PSNM-000','PSNM','6','ACOR')
-plot_ROC_1_var('PSNM-000','PSNM',a[0][0],a[2][0])
+##plot_ROC_1_var('PSNM-000','PSNM','6','ACOR')
+plot_ROC_1_var(str(a[3][7]),str(a[3][8]), a[0][0],a[2][0])
 
+# Tempo de execucao da funcao
+print('##############')
+print('Tempo mínimo [s]: ', min(plot_ROC_1_var.times))
+print('Tempo máximo [s]: ', max(plot_ROC_1_var.times))
+print('Média de tempo [s]: ', sum(plot_ROC_1_var.times) / len(plot_ROC_1_var.times))
+print('##############')
+
+
+#title+level | title+level | title+level | title | position | estatistica
+
+#for tt, ll in itertools.product(range )
 plt.figure(figsize=(10,10))
-#plot_ROC_1_var('AGPL-925','AGPL','6','ACOR')
-plot_ROC_1_var('AGPL-925','AGPL',a[0][0],a[2][0])
+plot_ROC(
+         str(a[3][1]) +'-'+ str(a[4][0]),
+         str(a[3][1]) +'-'+ str(a[4][0]),
+         str(a[3][1]) +'-'+ str(a[4][0]),
+         str(a[3][1]) +'-'+ str(a[4][0]),
+         a[0][0],a[2][0]
+         )
 
 
 
