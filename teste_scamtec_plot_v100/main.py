@@ -27,6 +27,7 @@ plot_ROC_1_var(str(a[3][7]),str(a[3][8]), a[0][0],a[2][0])
 
 # Tempo de execucao da funcao
 print('##############')
+print('Funcao: plot_ROC_1_var')
 print('Tempo mínimo [s]: ', min(plot_ROC_1_var.times))
 print('Tempo máximo [s]: ', max(plot_ROC_1_var.times))
 print('Média de tempo [s]: ', sum(plot_ROC_1_var.times) / len(plot_ROC_1_var.times))
@@ -45,6 +46,12 @@ plot_ROC(
          a[0][0],a[2][0]
          )
 
+print('##############')
+print('Funcao: plot_ROC')
+print('Tempo mínimo [s]: ', min(plot_ROC.times))
+print('Tempo máximo [s]: ', max(plot_ROC.times))
+print('Média de tempo [s]: ', sum(plot_ROC.times) / len(plot_ROC.times))
+print('##############')
 
 
 ## numero 6 - > relacionado a 24h
