@@ -7,22 +7,9 @@ import matplotlib.pyplot as plt
 from roc1 import plot_ROC_1_var
 from roc2 import plot_ROC
 from fjso import *
-###############################################################################
-# >> |position // previsao |/ estatistica / title / level
-# position = 6, 10, 14, 18, 22, 26
-# previsao = 24, 48, 72, 96, 120, 144
-# estatistica = 'ACOR', 'RMS', 'VIEW'
-# title= 'VTMP', 'TEMP', 'UMES', 'ZGEO', 'UVEL', 'VVEL', 'PSNM', 'AGPL'
-# level =250, 500, 850, 925
-###############################################################################
 
 a =select(6,3,8,4)
-print(a)
-print(a[3][0],a[4][0])
 
-##############################################################################
-#A 'def' abaixo é exclusiva para as váriaveis PSNM-000 e AGPL-925
-##############################################################################
 
 plt.figure(figsize=(10,10))
 #plot_ROC_1_var('PSNM-000','PSNM','6','ACOR')
@@ -32,9 +19,7 @@ plt.figure(figsize=(10,10))
 #plot_ROC_1_var('AGPL-925','AGPL','6','ACOR')
 plot_ROC_1_var('AGPL-925','AGPL',a[0][0],a[2][0])
 
-##############################################################################
-#FIM da exclusiva para as váriaveis PSNM-000 e AGPL-925
-##############################################################################
+
 
 ## numero 6 - > relacionado a 24h
 #plt.figure(figsize=(15,15))
