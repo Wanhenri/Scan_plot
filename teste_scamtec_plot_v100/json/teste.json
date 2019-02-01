@@ -7,7 +7,7 @@
 
      {"estatistica": ["ACOR", "RMS", "VIEW"]},
 
-     {"title": ["VTMP","TEMP","UMES","ZGEO","UVEL","VVEL","AGPL","PSNM","PSNM-000","PREC-000","PREV-000"]},
+     {"title": ["VTMP","TEMP","UMES","ZGEO","UVEL","VVEL","AGPL","PSNM-000","PSNM","PREC-000","PREC","PREV-000","PREV"]},
 
      {"level": [250,500,850,925]},    
       
