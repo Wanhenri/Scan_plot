@@ -22,7 +22,7 @@ a =select(6,3,8,4)
 
 
 plt.figure(figsize=(10,10))
-##plot_ROC_1_var('PSNM-000','PSNM','6','ACOR')
+##<'PSNM-000','PSNM','6','ACOR'>
 plot_ROC_1_var(str(a[3][7]),str(a[3][8]), a[0][0],a[2][0])
 
 # Tempo de execucao da funcao
@@ -38,6 +38,7 @@ print('##############')
 
 #for tt, ll in itertools.product(range )
 plt.figure(figsize=(10,10))
+#<title+level | title+level | title+level | title | position | estatistica>
 plot_ROC(
          str(a[3][1]) +'-'+ str(a[4][0]),
          str(a[3][1]) +'-'+ str(a[4][0]),
