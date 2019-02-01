@@ -3,7 +3,11 @@ import csv
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from time_exec import time_statistics
 
+
+
+@time_statistics
 def plot_ROC_1_var(var_1,title,time,statistic):
     path =r'dadosscantec/' # use your path
     allFiles = glob.glob(path + "/"+str(statistic)+"EXP"+ str(time) + "*.csv")
