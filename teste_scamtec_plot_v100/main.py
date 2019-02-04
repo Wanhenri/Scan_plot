@@ -22,10 +22,9 @@ plt.figure(figsize=(10,10))
 plot_ROC_1_var(str(a[3][7]),str(a[3][8]), a[0][0],a[2][0])
 
 # Tempo de execucao da funcao
-print('##############')
 print('Funcao: plot_ROC_1_var')
 print('Média de tempo [s]: ', sum(plot_ROC_1_var.times) / len(plot_ROC_1_var.times))
-print('##############')
+
 
 
 
@@ -36,14 +35,12 @@ plot_ROC(
          str(a[3][1]) +'-'+ str(a[4][0]),
          str(a[3][1]) +'-'+ str(a[4][0]),
          str(a[3][1]) +'-'+ str(a[4][0]),
-         str(a[3][1]) +'-'+ str(a[4][0]),
-         a[0][0],a[2][0]
+         str(a[3][1]), a[0][0],a[2][0]
          )
 
-print('##############')
 print('Funcao: plot_ROC')
 print('Média de tempo [s]: ', sum(plot_ROC.times) / len(plot_ROC.times))
-print('##############')
+
 
 
 
