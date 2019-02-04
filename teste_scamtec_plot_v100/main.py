@@ -17,13 +17,13 @@ print()
 a =select(6,3,8,4)
 
 
-plt.figure(figsize=(10,10))
-##<'PSNM-000','PSNM','6','ACOR'>
-plot_ROC_1_var(str(a[3][7]),str(a[3][8]), a[0][0],a[2][0])
-
-# Tempo de execucao da funcao
-print('Funcao: plot_ROC_1_var')
-print('Média de tempo [s]: ', sum(plot_ROC_1_var.times) / len(plot_ROC_1_var.times))
+for b, c in zip(range(6,9,2), range(7,10,2)):
+    for d, e in itertools.product(range(0,6), range(0,3)):
+        plt.figure(figsize=(10,10))
+        plot_ROC_1_var(str(a[3][b]),str(a[3][c]), a[0][d],a[2][e])
+        
+        print('Funcao: plot_ROC_1_var')
+        print('Média de tempo [s]: ', sum(plot_ROC_1_var.times) / len(plot_ROC_1_var.times))
 
 
 
