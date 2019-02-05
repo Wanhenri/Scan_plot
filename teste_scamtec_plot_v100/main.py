@@ -46,9 +46,9 @@ for b, c in zip(range(4,6), range(4,6)):
   for e, f in itertools.product(range(0,6), range(0,3)):
         plt.figure(figsize=(10,10))
         plot_ROC(
-                 str(a[3][b]) +'-'+ str(a[4][0]),
                  str(a[3][b]) +'-'+ str(a[4][1]),
                  str(a[3][b]) +'-'+ str(a[4][2]),
+                 str(a[3][b]) +'-'+ str(a[4][3]),
                  str(a[3][c]), a[0][e],a[2][f]
                  )
 
