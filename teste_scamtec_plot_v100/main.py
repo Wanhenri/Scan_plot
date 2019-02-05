@@ -26,20 +26,34 @@ for b, c in zip(range(6,9,2), range(7,10,2)):
         print('Média de tempo [s]: ', sum(plot_ROC_1_var.times) / len(plot_ROC_1_var.times))
 
 
+print("250 - 850")
+for b, c in zip(range(0,4), range(0,4)):
+  for e, f in itertools.product(range(0,6), range(0,3)):
+        plt.figure(figsize=(10,10))
+        plot_ROC(
+                 str(a[3][b]) +'-'+ str(a[4][0]),
+                 str(a[3][b]) +'-'+ str(a[4][1]),
+                 str(a[3][b]) +'-'+ str(a[4][2]),
+                 str(a[3][c]), a[0][e],a[2][f]
+                 )
+
+        print('Funcao: plot_ROC')
+        print('Média de tempo [s]: ', sum(plot_ROC.times) / len(plot_ROC.times))
 
 
-plt.figure(figsize=(10,10))
-#<title+level | title+level | title+level | title | position | estatistica>
-#>>plot_ROC('TEMP-250','TEMP-500','TEMP-850','TEMP','6','ACOR')
-plot_ROC(
-         str(a[3][1]) +'-'+ str(a[4][0]),
-         str(a[3][1]) +'-'+ str(a[4][0]),
-         str(a[3][1]) +'-'+ str(a[4][0]),
-         str(a[3][1]), a[0][0],a[2][0]
-         )
+print("500-925")
+for b, c in zip(range(4,6), range(4,6)):
+  for e, f in itertools.product(range(0,6), range(0,3)):
+        plt.figure(figsize=(10,10))
+        plot_ROC(
+                 str(a[3][b]) +'-'+ str(a[4][0]),
+                 str(a[3][b]) +'-'+ str(a[4][1]),
+                 str(a[3][b]) +'-'+ str(a[4][2]),
+                 str(a[3][c]), a[0][e],a[2][f]
+                 )
 
-print('Funcao: plot_ROC')
-print('Média de tempo [s]: ', sum(plot_ROC.times) / len(plot_ROC.times))
+        print('Funcao: plot_ROC')
+        print('Média de tempo [s]: ', sum(plot_ROC.times) / len(plot_ROC.times))
 
 
 
