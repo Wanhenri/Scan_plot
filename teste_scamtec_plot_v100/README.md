@@ -1,5 +1,12 @@
 # Inicio das atividades
 
++ 29/01/19
++ 31/01/19
++ 04/02/19
++ 05/02/19
+
+---
+
 + position = 6, 10, 14, 18, 22, 26
 + previsao = 24, 48, 72, 96, 120, 144
 + estatistica = 'ACOR', 'RMS', 'VIEW'
@@ -15,9 +22,9 @@
 
 ---
 
--    #>>plot_ROC_1_var('PSNM-000','PSNM','6','ACOR')
--    #>>plot_ROC_1_var(str(a[3][7]),str(a[3][8]), a[0][0],a[2][0])
--    #>>nao tem dados nas variaveis PREC PREV, por isso os valores 7 e 8 fixos
++ plot_ROC_1_var('PSNM-000','PSNM','6','ACOR')
++ plot_ROC_1_var(str(a[3][7]),str(a[3][8]), a[0][0],a[2][0])
++ nao tem dados nas variaveis PREC PREV, por isso os valores 7 e 8 fixos
 
--    #>>plot_ROC('TEMP-250','TEMP-500','TEMP-850','TEMP','6','ACOR')
--    #>>#title+level | title+level | title+level | title | position | estatistica
++ plot_ROC('TEMP-250','TEMP-500','TEMP-850','TEMP','6','ACOR')
++ title+level | title+level | title+level | title | position | estatistica
