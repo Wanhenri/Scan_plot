@@ -15,3 +15,9 @@
 
 ---
 
+-    #>>plot_ROC_1_var('PSNM-000','PSNM','6','ACOR')
+-    #>>plot_ROC_1_var(str(a[3][7]),str(a[3][8]), a[0][0],a[2][0])
+-    #>>nao tem dados nas variaveis PREC PREV, por isso os valores 7 e 8 fixos
+
+-    #>>plot_ROC('TEMP-250','TEMP-500','TEMP-850','TEMP','6','ACOR')
+-    #>>#title+level | title+level | title+level | title | position | estatistica
