@@ -1,6 +1,8 @@
 import glob
 import pandas as pd
 
+#corrigir script para o modelo atual
+
 path ='.'
 allFiles = glob.glob(path + "/*.scam")
 
