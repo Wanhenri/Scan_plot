@@ -6,7 +6,7 @@ from time_exec import time_statistics
 
 
 @time_statistics
-def plot_ROC_1_var(var_1,title,time,statistic):
+def plot_ROC_1_var(var_1,title,time,statistic,previsao):
     path =r'dadosscantec/' # use your path
     allFiles = glob.glob(path + "/"+str(statistic)+"EXP"+ str(time) + "*.csv")
 
@@ -18,7 +18,7 @@ def plot_ROC_1_var(var_1,title,time,statistic):
         ts = df.loc[0:107,[var_1]]
         print(file_)
         plt.plot(ts)
-        plt.title(title+'_'+str(statistic)+str(time))
+        plt.title(title+'_'+str(statistic)+str(time)+'_Prev_'+str(previsao)+'_horas')
         #plt.xlabel("X-axis")
         #plt.ylabel("Y-axis")
         plt.legend([var_1], loc=0)
