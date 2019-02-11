@@ -1,9 +1,17 @@
 # Inicio das atividades
 
 + 29/01/19
++ 30/01/19
+  - Ausente; Fui para são josé dos campos
 + 31/01/19
++ 01/02/19
+  - Sem internet
 + 04/02/19
 + 05/02/19
++ 06/02/19
++ 07/02/19
++ 08/02/19
++ 11/09/19
 
 ---
 
