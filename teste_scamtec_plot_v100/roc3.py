@@ -15,5 +15,5 @@ list_ = []
 for file_ in allFiles:
     name_file=os.path.splitext(file_)[0]
     df = pd.read_csv(file_,delimiter='\s+')
-    df.to_csv('new_file/'+name_file + '.csv', float_format='%g')
+    df.to_csv('new_file/'+name_file + '.csv', float_format='%g',  index=False)
     
