@@ -2,9 +2,10 @@ import glob
 import pandas as pd
 import os
 
-#corrigir script para o modelo atual - Nok
-#corrigir diretorio                  - Nok
-#corrigir nome do file de saida      - ok
+#corrigir script para o modelo atual       - Nok
+#corrigir diretorio que buscará os dados   - Nok
+#corrigr -> criar diretorio 'new_file'     - Nok
+#corrigir nome do file de saida            - ok
 
 path ='.'
 allFiles = glob.glob(path + "/*.scam")
