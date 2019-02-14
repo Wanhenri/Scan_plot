@@ -3,6 +3,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from time_exec import time_statistics
 
+def peace_figure(ts,var_1,title,time,statistic,previsao):
+        plt.plot(ts)
+        plt.title(title+'_'+str(statistic)+str(time)+'_Prev_'+str(previsao)+'_horas')
+        plt.xlabel("Tempo")
+        plt.ylabel(str(statistic))
+        plt.legend([var_1], loc=0)
+        plt.tight_layout()
+        plt.plot()
+        return
 
 
 @time_statistics
@@ -17,12 +26,8 @@ def plot_ROC_1_var(var_1,title,time,statistic,previsao):
         list_.append(df)
         ts = df.loc[0:107,[var_1]]
         print(file_)
-        plt.plot(ts)
-        plt.title(title+'_'+str(statistic)+str(time)+'_Prev_'+str(previsao)+'_horas')
-        #plt.xlabel("X-axis")
-        #plt.ylabel("Y-axis")
-        plt.legend([var_1], loc=0)
-        plt.tight_layout()
-        plt.plot()
+        
+        peace_figure(ts,var_1,title,time,statistic,previsao)
+        
         plt.savefig('img/'+ str(title)+str(statistic)+str(time)+'.png')
         return
