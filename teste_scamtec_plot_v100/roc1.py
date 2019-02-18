@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from time_exec import time_statistics
 
+from time_exec import time_statistics
 from roc_config import * 
 
 def figure_config(ts,var_1,title,time,statistic,previsao):
